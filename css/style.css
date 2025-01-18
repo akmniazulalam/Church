@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#header {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 38px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.logoWithMenuButton {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 25%;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    font-family: "Source Sans 3", serif;
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    transition: 1s;
+    padding: 0px 17px;
+}
+
+.menu ul li a:hover {
+    color: #e4b855;
+}
+
+.donate a {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Source Sans 3", serif;
+    font-size: 14px;
+    padding: 7px 46px;
+    background: #e4b855;
+    border-radius: 13px;
+    transition: 1s;
+}
+
+.donate a:hover {
+    background: #e6e6e6;
+}
+
+.donate {
+    margin-left: 10px;
+}
+
+.search i {
+    color: #fff;
+    margin-left: 20px;
+    font-weight: 700;
+}
+
+#banner {
+    background: url(../images/slider-02.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.6);
+    padding-top: 180px;
+    padding-bottom: 80px;
+}
+
+.overlay h1 {
+    font-size: 54.7px;
+    color: #fff;
+    font-weight: 900;
+    line-height: 1.28;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+}
+
+.overlay h5 {
+    line-height: 1.23;
+    color: #FFF;
+    text-align: center;
+    font-size: 19.8px;
+    font-family: "Source Sans 3", serif;
+    margin-top: 25px;
+    padding: 0 291px;
+    font-weight: 600;
+}
+
+#info {
+    margin: 0;
+    display: flex;
+}
+
+#info img {
+    width: 50%;
+    margin: 0;
+}
+
+#info h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 29.6px;
+    line-height: 32.56px;
+    color: #000;
+    padding: 120px 35px 0;
+}
+
+#info h5 {
+    font-family: "Source Sans 3", serif;
+    font-size: 19.8px;
+    line-height: 21.78px;
+    color: #606060;
+    padding: 30px 35px 0;
+    font-weight: normal;
+}
+
+#info h6 {
+    font-family: "Source Sans 3", serif;
+    font-size: 16.2px;
+    line-height: 22.5px;
+    color: #606060;
+    padding: 35px 35px 0;
+    font-weight: normal;
+}
+
+#service{
+    background: url(../images/bg-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#service .overlay{
+    background: hsla(0, 0%, 0%, 0.603);
+    padding: 150px 0;
+    background-attachment: fixed;
+}
+#service h2 {
+    color: #FFF;
+    max-width: 677px;
+    line-height: 1.24;
+    margin: 0 auto;
+    font-size: 29.6px;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+
+}
+#service h5 {
+    color: #ABABAB;
+    line-height: 1.27;
+    max-width: 577px;
+    margin: 30px auto 75px;
+    font-size: 19.8px;
+    font-family: "Source Sans 3", serif;
+    font-weight: normal;
+}
+.dailyPrayers a {
+    display: inline-block;
+    color: #000;
+    padding: 31px 20px 38px;
+    background: #e8e8e8;
+    text-align: -webkit-center;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: "Source Sans 3", serif;
+    transition: 1s;
+    width: 125px;
+    height: 102px;
+}
+.dailyPrayers a .teaching img{
+    height: 29%;
+    width: 29%;
+}
+.dailyPrayers a .events img{
+    height: 35%;
+    width: 39%;
+}
+.dailyPrayers a .sermons img{
+    height: 32.5%;
+    width: 30.5%;
+}
+.dailyPrayers a .helpers img{
+    height: 38%;
+    width: 38%;
+}
+.dailyPrayers a .wedding img{
+    height: 28%;
+    width: 25%;
+}
+.dailyPrayers a img{
+    display: block;
+    padding-bottom: 28px;
+    height: 47%;
+    width: 35%;
+    text-align: center;
+    /* padding-left: 20px; */
+}
+.serviceBoxes{
+    display: flex;
+    justify-content: space-between;
+}
+.dailyPrayers a:hover{
+    background: #e4b855;
+    color: #FFF;
+    box-shadow: #000 2px 15px 12px;
+}
