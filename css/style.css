@@ -28,6 +28,7 @@ html {
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 77;
 }
 
 .logoWithMenuButton {
@@ -170,7 +171,6 @@ html {
     font-size: 29.6px;
     text-align: center;
     font-family: "Playfair Display", serif;
-
 }
 #service h5 {
     color: #ABABAB;
@@ -220,7 +220,6 @@ html {
     height: 47%;
     width: 35%;
     text-align: center;
-    /* padding-left: 20px; */
 }
 .serviceBoxes{
     display: flex;
@@ -230,4 +229,110 @@ html {
     background: #e4b855;
     color: #FFF;
     box-shadow: #000 2px 15px 12px;
+}
+#who{
+    margin: 150px 0;
+}
+.whoText{
+    text-align: center;
+    position: relative;
+}
+.whoText h3{
+    font-size: 29.6px;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.whoText p{
+    font-size: 19.6px;
+    font-weight: 400;
+    line-height: 1.23;
+    color: #606060;
+    margin-top: 18px;
+    padding: 0 310px;
+    margin-bottom: 80px;
+}
+.whoSlide{
+    display: flex;
+}
+.whoSlide h4{
+    font-size: 25px;
+    font-family: "Playfair Display", serif;
+    padding-bottom: 14px;
+}
+.whoSlide h5{
+    font-size: 16.2px;
+    font-family: "Source Sans 3", serif;
+    color: #606060;
+    font-weight: normal;
+    padding-bottom: 14px;
+    padding-right: 84px;
+}
+.whoSlide a{
+    font-size: 16.2px;
+    font-family: "Source Sans 3", serif;
+    color: #e4b855;
+    font-weight: 500;
+    font-style: italic;
+    transition: .4s;
+}
+.whoSlide a:hover{
+    color: #000;
+}
+.whoSlide a i{
+    padding-left: 3px;
+    font-size: 15px;
+}
+.slideText{
+    width: 50%;
+    text-align: left;
+    padding-top: 60px;
+}
+.slideTwoText{
+    width: 50%;
+    text-align: left;
+    padding-top: 74px;
+    padding-left: 600px;
+}
+.slideTwoText h4{
+    padding-left: 90px;
+    padding-top: 0px;
+}
+.slideTwoText h5{
+    padding-left: 90px;
+}
+.slideTwoText a{
+    padding-left: 90px;
+    transition: .4s;
+}
+.slideTwoText a:hover{
+    color: #000;
+}
+.slideImg img{
+    height: 100%;
+    width: 100%;
+}
+.whiteBg{
+    padding: 10px;
+    background: #ffffff;
+    position: absolute;
+    top: 66%;
+    left: 50%;
+    transform: translate(-50%, -48%);
+}
+.count{
+    padding: 30px;
+    background-color: #E4B855;
+}
+.count h6{
+    font-size: 72px;
+    color: #fff;
+    font-family: "Source Sans 3", serif;
+    font-weight: normal;
+}
+
+.slideTwoImg img{
+    position: absolute;
+    top: 62%;
+    left: 0;
 }
